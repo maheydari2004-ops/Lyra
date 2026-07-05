@@ -1,0 +1,32 @@
+<Window x:Class="Lyra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lyra"
+        Height="500"
+        Width="400"
+        Background="#121212"
+        WindowStyle="None"
+        AllowsTransparency="True">
+
+    <Grid Margin="20">
+
+        <StackPanel>
+
+            <TextBlock Text="Lyra"
+                       FontSize="28"
+                       Foreground="White"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="No song detected"
+                       Foreground="Gray"
+                       Margin="0,0,0,20"/>
+
+            <Button Content="Test AI Translate"
+                    Height="40"
+                    Background="#1DB954"
+                    Foreground="White"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
